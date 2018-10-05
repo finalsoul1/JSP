@@ -1,0 +1,20 @@
+작업순서
+1. 연동할 DB 확인
+table >> Column...
+
+2. 데이터를 묶어서 취급하는 클래스
+Emp
+
+3. 디비와 대화하는 DAO클래스
+EmpDao 인터페이스
+EmpDaoImpl 구현클래스
+1. 디비와 연결 : Connection
+2. 질의 : PreparedStatement
+3. 결과의 처리 : ResultSet
+
+4. 브라우저와 대화하는 서블릿 클래스
+EmpServlet
+
+5. 데이터를 사용하여 화면을 구성
+emp-list.jsp
+
