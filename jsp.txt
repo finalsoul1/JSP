@@ -1,0 +1,13 @@
+sendRedirect(url) : 브라우저에 Redirect 응답을 보낸다
+
+application 객체 : 전역
+
+application은 Servlet을 통제한다.
+
+redirect, forward 차이
+112page
+
+URL : 서버/프로젝트,폴더/*.jsp, 서블릿클래스
+
+서블릿클래스: 파일이름 숫자불가
+JSP: 가능

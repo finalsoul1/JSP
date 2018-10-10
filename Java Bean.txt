@@ -1,0 +1,15 @@
+어떤 컨테이너에 보관하는 객체 : bean
+
+프레임워크의 컨테이너 안에 객체를 보관하는데 그 클래스들의 규약
+: Java Bean
+
+
+119p
+Model1 (요새 거의 안씀)
+모델(java bean) = DAO + VO : db와 대화하는 로직 + 그 결과
+VO = domain class = DTO
+
+Model2 (MVC 아키텍처)
+Servlet = 컨트롤러 = URL Handler
+컨트롤러, 뷰, 모델을 각각 분리하자
+모델 뷰 컨트롤러 = MVC
